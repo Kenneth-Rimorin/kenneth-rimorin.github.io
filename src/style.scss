@@ -5,33 +5,7 @@ $colornav:#272a2c;
 body {
     background-color: $colorblue;
 }
-
-
-header #hello{
-    margin-top: 7vw;
-    display: flex;
-    justify-content: center;
-    size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: $coloryellow;
-}
-header #name{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 1vw;
-}
-
-header #job{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
+//---START OF NAVBAR--//
 .nav{
     text-align: right;
     height: 50px;
@@ -67,7 +41,31 @@ label {
     display: none;
 }
 
+//---END OF NAVBAR--//
 
+#hello{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $coloryellow;
+}
+ #name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1vw;
+    margin: auto;
+}
+
+ #job{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
 section #container{
     margin-top: 12vw;
     background-color: $coloryellow;
@@ -133,6 +131,14 @@ section #container #image{
     }
     #toggle:checked + .menu{
         display: block;
+    }
+
+    #job {
+        font-size: 10px;
+    }
+
+    .profilepicture {
+        width: 20vw;
     }
 
 }

@@ -2,32 +2,6 @@ body {
   background-color: #111820;
 }
 
-header #hello {
-  margin-top: 7vw;
-  display: flex;
-  justify-content: center;
-  size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f3aa4e;
-}
-
-header #name {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 1vw;
-}
-
-header #job {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
 .nav {
   text-align: right;
   height: 50px;
@@ -60,6 +34,31 @@ label {
 
 #toggle {
   display: none;
+}
+
+#hello {
+  margin-top: 7vw;
+  display: flex;
+  justify-content: center;
+  size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f3aa4e;
+}
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1vw;
+  margin: auto;
+}
+
+#job {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
 }
 
 section #container {
@@ -128,6 +127,14 @@ section #container #image {
 
   #toggle:checked + .menu {
     display: block;
+  }
+
+  #job {
+    font-size: 10px;
+  }
+
+  .profilepicture {
+    width: 20vw;
   }
 }
 
