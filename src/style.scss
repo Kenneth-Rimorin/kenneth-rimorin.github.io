@@ -11,7 +11,7 @@ header #hello{
     margin-top: 7vw;
     display: flex;
     justify-content: center;
-    size: 12px;
+    size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: $coloryellow;
 }
@@ -32,31 +32,41 @@ header #job{
     justify-content: center;
 }
 
+.nav{
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+}
+.menu{
 
-nav{
-    width: 100%;
-    background-color:$colornav;
-    margin-top: -1vw; 
-}
-nav ul{
-    display: flex;
-    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: $colornav;
+
     
-    list-style: none;
-    height: 3vw;
-    align-items: center;
-    width: 30vw;
 }
-nav ul li{
-color: white;
-text-transform: uppercase;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 13px;
-margin: auto;
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color:white;
+    margin: 0 10px;
+    line-height: 50px;
 }
-li:hover{
-    color: $coloryellow;
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 20px;
+    line-height: 50px;
+    display: none;
+    width: 30px;
+    float: right;
+    color: white;
 }
+
+#toggle {
+    display: none;
+}
+
 
 section #container{
     margin-top: 12vw;
@@ -97,4 +107,32 @@ section #container #image{
     border-style: solid;
     width: 12vw;
     padding: 0.5vw;
+}
+
+#container .moreabout:hover{
+    color: $colorblue;
+}
+//--------------Media Queries HERE----------------------//
+@media only screen and (max-width:500px){
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        background-color: red;
+        display: none;
+        
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin:0;
+        
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+
 }
