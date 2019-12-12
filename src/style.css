@@ -2,6 +2,16 @@ body {
   background-color: #111820;
 }
 
+.yellowlines {
+  padding: 0;
+  margin: -35vw 0 0 -20vw;
+  opacity: 0.3;
+  width: 80vw;
+  z-index: -2;
+  float: left;
+  transform: rotate(80deg);
+}
+
 .nav {
   text-align: right;
   height: 50px;
@@ -66,6 +76,7 @@ section #container {
   background-color: #f3aa4e;
   width: 100vw;
   height: 50vw;
+  position: absolute;
 }
 
 section #container #image {
@@ -89,7 +100,7 @@ section #container #image {
   opacity: 0.5;
 }
 
-#container .moreabout {
+.moreabout {
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -102,7 +113,7 @@ section #container #image {
   padding: 0.5vw;
 }
 
-#container .moreabout:hover {
+.moreabout:hover {
   color: #111820;
 }
 

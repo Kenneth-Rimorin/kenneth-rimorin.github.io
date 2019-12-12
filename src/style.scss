@@ -5,6 +5,16 @@ $colornav:#272a2c;
 body {
     background-color: $colorblue;
 }
+.yellowlines{
+    padding: 0;
+    margin: -35vw 0 0 -20vw;
+    opacity: 0.30;
+    width: 80vw;
+    z-index: -2;
+    float: left;
+    transform: rotate(80deg);
+
+}
 //---START OF NAVBAR--//
 .nav{
     text-align: right;
@@ -71,6 +81,7 @@ section #container{
     background-color: $coloryellow;
     width: 100vw;
     height: 50vw;
+    position: absolute;
 
 }
 section #container #image{
@@ -94,20 +105,20 @@ section #container #image{
     
 }
 
-#container .moreabout{
+ .moreabout{
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 6vw;
     border-style: solid;
     width: 12vw;
     padding: 0.5vw;
-}
 
-#container .moreabout:hover{
+}
+.moreabout:hover{
     color: $colorblue;
 }
 //--------------Media Queries HERE----------------------//
