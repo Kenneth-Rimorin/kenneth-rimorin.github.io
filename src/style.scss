@@ -4,11 +4,12 @@ $colornav:#272a2c;
 
 body {
     background-color: $colorblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .yellowlines{
     padding: 0;
     margin: -35vw 0 0 -20vw;
-    opacity: 0.30;
+    opacity: 0.40;
     width: 80vw;
     z-index: -2;
     float: left;
@@ -77,10 +78,10 @@ label {
     text-align: center;
 }
 section #container{
-    margin-top: 12vw;
+    margin: 12vw 0 0 0;
     background-color: $coloryellow;
-    width: 100vw;
-    height: 50vw;
+    width: 100%;
+    height: 100%;
     position: absolute;
 
 }
@@ -121,6 +122,32 @@ section #container #image{
 .moreabout:hover{
     color: $colorblue;
 }
+
+.aboutcontent{
+    margin-top: 10vw;
+    // background-color: pink;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100%;
+    text-align: center;
+}
+.firstcolumn{
+    align-content: center;
+    width: 30vw;
+    height: 30vw;
+    text-align: left;
+}
+
+// }
+//  .secondcolumn{
+//  background-color: green;
+//  width: 30vw;
+//  height: 40vw;
+ 
+ 
+//  }
+
 //--------------Media Queries HERE----------------------//
 @media only screen and (max-width:500px){
     label{
