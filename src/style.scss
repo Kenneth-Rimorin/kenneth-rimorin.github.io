@@ -1,0 +1,87 @@
+$coloryellow:#f3aa4e;
+$colorblue: #111820;
+$colornav:#272a2c;
+
+body {
+    background-color: $colorblue;   
+    
+}
+
+header #hello{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $coloryellow;
+}
+header #name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1vw;
+}
+
+header #job{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav{
+    width: 100%;
+    background-color:$colornav;
+    margin-top: -1vw; 
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
+    height: 3vw;
+    align-items: center;
+    width: 30vw;
+}
+nav ul li{
+color: white;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+margin: auto;
+}
+li:hover{
+    color: $coloryellow;
+}
+
+section #container{
+    margin-top: 12vw;
+    background-color: $coloryellow;
+    width: 100vw;
+    height: 50vw;
+
+}
+section #container #image{
+    display: flex;
+    justify-content: center;
+}
+#image .profilepicture {
+    margin-top: -6vw;
+    width: 12vw;
+    z-index: 2;
+}
+
+#image .circle {
+    background-color: white;
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50vw;
+    margin-top: -7vw;
+    opacity: 0.5;
+    
+}
