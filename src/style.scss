@@ -3,8 +3,19 @@ $colorblue: #111820;
 $colornav:#272a2c;
 
 body {
-    background-color: $colorblue;
+    background-color:$colorblue;
     font-family: Arial, Helvetica, sans-serif;
+    p{
+        text-align: center;
+    }   
+
+    h2{
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
 }
 .yellowlines{
     padding: 0;
@@ -14,6 +25,7 @@ body {
     z-index: -2;
     float: left;
     transform: rotate(80deg);
+    position: absolute;
 
 }
 //---START OF NAVBAR--//
@@ -21,21 +33,33 @@ body {
     text-align: right;
     height: 50px;
     line-height: 50px;
+    width: 100%;
+    background-color: $colornav;
 }
 .menu{
 
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    background-color: $colornav;
+    font-size: 13px;
+    margin-right: 160px;
 
     
 }
+
 .menu a{
     clear: right;
     text-decoration: none;
     color:white;
     margin: 0 10px;
     line-height: 50px;
+}
+
+.menu a:hover{
+
+    color: $coloryellow;
+    font-size: 16px;
+
+    
 }
 
 label {
@@ -55,7 +79,7 @@ label {
 //---END OF NAVBAR--//
 
 #hello{
-    margin-top: 7vw;
+    margin-top: 9vw;
     display: flex;
     justify-content: center;
     size: 50px;
@@ -77,21 +101,21 @@ label {
     color: white;
     text-align: center;
 }
-section #container{
-    margin: 12vw 0 0 0;
-    background-color: $coloryellow;
-    width: 100%;
-    height: 100%;
-    position: absolute;
 
+#image{
+margin-top: 12vw;
+// background-color: red;
+width: 100%;
+display: flex;
+justify-content: center;
+position: absolute;
+z-index: 3;
 }
-section #container #image{
-    display: flex;
-    justify-content: center;
-}
+
 #image .profilepicture {
     margin-top: -6vw;
     width: 12vw;
+    position: absolute;
     z-index: 2;
 }
 
@@ -113,7 +137,7 @@ section #container #image{
     margin-right: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 6vw;
+    margin-top: 9vw;
     border-style: solid;
     width: 12vw;
     padding: 0.5vw;
@@ -123,33 +147,49 @@ section #container #image{
     color: $colorblue;
 }
 
-.aboutcontent{
-    margin-top: 10vw;
-    // background-color: pink;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    height: 100%;
-    text-align: center;
-}
-.firstcolumn{
+section #container{
+    margin: 12vw 0 0 0;
+    background-color: $coloryellow;
+    width: 100%;
+    position: absolute;
     align-content: center;
-    width: 30vw;
-    height: 30vw;
-    text-align: left;
+
 }
 
-// }
-//  .secondcolumn{
-//  background-color: green;
-//  width: 30vw;
-//  height: 40vw;
- 
- 
-//  }
+.aboutcontent{
+    margin-top: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.skills{
+
+    background-color:$coloryellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    .development{
+        margin-left: 42vw;
+    }
+
+
+   .devtools{
+        width: 4vw;
+    }
+
+    .destools{
+        width: 3vw;
+        margin-right: 20px;
+    }
+
+}
 
 //--------------Media Queries HERE----------------------//
 @media only screen and (max-width:500px){
+    
     label{
         display: block;
         cursor: pointer;
@@ -175,8 +215,47 @@ section #container #image{
         font-size: 10px;
     }
 
-    .profilepicture {
-        width: 20vw;
+    #image .profilepicture {
+        margin-top: -10vw;
+        width: 30vw;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    #image .circle {
+        opacity: 0;
+        
+    }
+
+    .button {
+        width: 500px; 
+        // height: 40vw;
+        // background-color: red;
+        margin-top: 20vw;
+    }
+    .moreabout{
+        margin-top: 20vw;
+        font-size: 4vw;
+        border-style: solid;
+        padding: 0vw;
+        }
+
+    section #container{
+        margin:50vw 0 0 0;
+    }
+
+    .skills{
+        margin:auto;
+        .development{
+            margin-left: 5vw;
+            .devtools{
+                width:10vw;
+            }
+            .destools{
+                width: 10vw;
+            }
+            
+        }
     }
 
 }
