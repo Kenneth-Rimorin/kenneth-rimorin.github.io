@@ -11,6 +11,10 @@ body {
 
     h2{
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eda54a;
+        color:$colornav;
+        height: 2vw;
     }
 
     h4 {
@@ -40,6 +44,7 @@ body {
     width: 100%;
     background-color: $colornav;
 }
+
 .menu{
 
     font-family: Arial, Helvetica, sans-serif;
@@ -79,257 +84,363 @@ label {
 #toggle {
     display: none;
 }
-
 //---END OF NAVBAR--//
 
-#hello{
-    margin-top: 9vw;
-    display: flex;
-    justify-content: center;
-    size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: $coloryellow;
-}
- #name{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    letter-spacing: 1vw;
-    margin: auto;
-}
-
- #job{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    text-align: center;
-}
-
-#image{
-margin-top: 12vw;
-// background-color: red;
-width: 100%;
-display: flex;
-justify-content: center;
-position: absolute;
-z-index: 3;
-}
-
-#image .profilepicture {
-    margin-top: -6vw;
-    width: 12vw;
-    position: absolute;
-    z-index: 2;
-}
-
-#image .circle {
-    background-color: white;
-    position: absolute;
-    width: 14vw;
-    height: 14vw;
-    border-radius: 50vw;
-    margin-top: -7vw;
-    opacity: 0.5;
+header{
+    #hello{
+        margin-top: 9vw;
+        display: flex;
+        justify-content: center;
+        size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $coloryellow;
+    }
+     #name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        letter-spacing: 1vw;
+        margin: auto;
+    }
     
-}
-
- .moreabout{
+     #job{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+    
+    #image{
+    margin-top: 12vw;
+    // background-color: red;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 9vw;
-    border-style: solid;
-    width: 12vw;
-    padding: 0.5vw;
+    position: absolute;
+    z-index: 3;
+    }
+    
+    #image .profilepicture {
+        margin-top: -6vw;
+        width: 12vw;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    #image .circle {
+        background-color: white;
+        position: absolute;
+        width: 14vw;
+        height: 14vw;
+        border-radius: 50vw;
+        margin-top: -7vw;
+        opacity: 0.5;
+        
+    }
+    
+     .moreabout{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 9vw;
+        border-style: solid;
+        width: 12vw;
+        padding: 0.5vw;
+    
+    }
+    .moreabout:hover{
+        color: $colorblue;
+    }
 
-}
-.moreabout:hover{
-    color: $colorblue;
+    #landingintro{
+        height: 36vw;
+        
+        .introbg{
+            background-color: $coloryellow;
+            width: 100%;
+            height: 19vw;
+            margin-top: 12vw;
+            
+        }
+    }
 }
 
-section #container{
-    margin: 12vw 0 0 0;
+
+#container{
+    // background-color: pink;
     background-color: $coloryellow;
     width: 100%;
-    position: absolute;
-    align-content: center;
+    height: 70vw;
 
-}
-
-.aboutcontent{
-    margin-top: 20vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-}
-.skills{
-
-    background-color:$coloryellow;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10vw;
-
-
-    .development{
-        margin-left: 42vw;
-    }
-
-
-   .devtools{
-        width: 4vw;
-    }
-
-    .destools{
-        width: 3vw;
-        margin-right: 20px;
-    }
-
-}
-
-#blog {
-    width: 100%;
-    height: 50vw;
-    background-color:$colorblue;
-
-    .blogpost{
+    .content{
+        // background-color: red;
+        background-color: $coloryellow;
+        width: 90vw;
+        height: 60vw;
+        margin:auto;
         display: flex;
-        flex-wrap:wrap;
-        justify-content: row;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
         justify-content: center;
-        margin-top: 6vw;
-
-        .blog1{
-            width: 15vw;
-            height: 30vw;
-            background-image: url(../src/image/b1.jpg);
-            background-color:red;
-            background-size: 40vw;
-            background-position-x: 60%;
-            margin-right: 5px;
-            position: relative;
-            background-size: cover;
-
-            .overlay {
-                width: 15vw;
-                height: 30vw;
-                background-color: $coloryellow;
-                position: absolute;
-                z-index: 2;
-                opacity: 0.9;
-                background-image: linear-gradient($colorblue,$coloryellow);
+        justify-content: space-around;
+        
+        .content1{
+            //education
+            // background-color:orange;
+            width: 40vw;
+            height: 10vw;
+            p{
+                line-height: 2vw;
             }
         }
+        
+        .content2{
+            //skills
+            // background-color: green;
+            width: 40vw;
+            height: 10vw;
+
+            img{
+                width: 4vw;
+            }
+            
+        }
+        
+        .content3{
+            //profile
+            // background-color: yellow;
+            width: 40vw;
+            height: 10vw;
 
 
-        .blog1:hover{
-            width: 17vw;
-            height: 32vw;
-            .overlay {
-                opacity: 0;
+            p{
+                line-height: 1px;
             }
+            
         }
-
-        .blog2{
-            width: 15vw;
-            height: 30vw;
-            background-color: blue;
-            margin-right: 5px;
-            background-image: url(../src/image/b2.jpg);
-            background-color:red;
-            background-size: 25vw;
-            background-position-x: 60%;
-            position: relative;
-            background-size: cover;
-
-            .overlay {
-                width: 15vw;
-                height: 30vw;
-                background-color: $coloryellow;
-                position: absolute;
-                z-index: 2;
-                opacity: 0.9;
-                background-image: linear-gradient($colorblue,$coloryellow);
-            }
+        
+        .content4{
+            //work experience
+            // background-color: magenta;
+            width: 40vw;
+            height: 10vw;
+            
         }
-        .blog2:hover{
-            // margin-top: ;
-            width: 17vw;
-            height: 32vw;
-            .overlay {
-                opacity: 0;
-            }
+        
+        .content5{
+            //who'sbehind me
+            // background-color: mediumaquamarine;
+            width: 40vw;
+            height: 10vw;    
+            
         }
-        .blog3{
-            width: 15vw;
-            height: 30vw;
-            background-color: pink;
-            margin-right: 5px;
-            background-image: url(../src/image/b3.jpg);
-            background-color:red;
-            background-size: 40vw;
-            background-position-x: 60%;
-            position: relative;
-            background-size: cover;
-
-            .overlay {
-                width: 15vw;
-                height: 30vw;
-                background-color: $coloryellow;
-                position: absolute;
-                z-index: 2;
-                opacity: 0.9;
-                background-image: linear-gradient($colorblue,$coloryellow);
-            }
-        }
-        .blog3:hover{
-            // margin-top: ;
-            width: 17vw;
-            height: 32vw;
-            .overlay {
-                opacity: 0;
-            }
-        }
-        .blog4{
-            width: 15vw;
-            height: 30vw;
-            background-color:green;
-            margin-right: 5px;
-            background-image: url(../src/image/b4.jpg);
-            background-color:red;
-            background-size: 40vw;
-            background-position-x: 60%;
-            position: relative;
-            background-size: cover;
-
-            .overlay {
-                width: 15vw;
-                height: 30vw;
-                background-color: $coloryellow;
-                position: absolute;
-                z-index: 2;
-                opacity: 0.9;
-                background-image: linear-gradient($colorblue,$coloryellow);
-            }
-        }
-        .blog4:hover{
-            // margin-top: ;
-            width: 17vw;
-            height: 32vw;
-            .overlay {
-                opacity: 0;
-            }
-        }
-
     }
 }
 
 
+
+#blog h2{
+    color: white;
+    background-color: transparent;
+}
+.blogcontent {
+    background-color: $colorblue;
+    width: 100%;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    h2 {
+        color: white;
+        background-color: none;
+    }
+
+
+    
+    .blog1{
+        margin-top: 3vw;
+        margin-right: 0.1vw;
+        width: 13vw;
+        height: 30vw;
+        background-color: orange;
+        background-image: url(../src/image/b1.jpg);
+        background-size: cover;
+        background-position-x: 23vw;
+        position: relative;
+        transition: transform .5s;
+
+        .overlay{
+            width: 13vw;
+            height: 30vw;
+            position: absolute;
+            background-color: orange;
+            background-image: linear-gradient($colorblue,$coloryellow);
+            opacity: 0.8;
+
+            p{
+                color: white;
+                margin-top: 27vw;
+            }
+
+        }
+    }
+
+    .blog1:hover{
+        transform: scale(1.1);
+        margin-right: 1vw; ;
+        .overlay{
+            opacity: 0;
+        }
+    }
+
+    .blog2{
+        margin-top: 3vw;
+        margin-right: 0.1vw;
+        width: 13vw;
+        height: 30vw;
+        background-color: orange;
+        background-image: url(../src/image/b2.jpg);
+        background-size: cover;
+        background-position-x: 17vw;
+        transition: transform .5s;
+        
+        .overlay{
+            width: 13vw;
+            height: 30vw;
+            position: absolute;
+            background-color: orange;
+            background-image: linear-gradient($colorblue,$coloryellow);
+            opacity: 0.8;
+
+            p{
+                color: white;
+                margin-top: 27vw;
+            }
+
+        }
+    }
+
+    .blog2:hover{
+        transform: scale(1.1);
+        margin-right: 1vw; ;
+        .overlay{
+            opacity: 0;
+        }
+    }
+    
+
+    .blog3{
+        margin-top: 3vw;
+        margin-right: 0.1vw;
+        width: 13vw;
+        height: 30vw;
+        background-color: orange;
+        background-image: url(../src/image/b3.jpg);
+        background-size: cover;
+        background-position-x: 23vw;
+        transition: transform .5s;
+
+        .overlay{
+            width: 13vw;
+            height: 30vw;
+            position: absolute;
+            background-color: orange;
+            background-image: linear-gradient($colorblue,$coloryellow);
+            opacity: 0.8;
+
+            p{
+                color: white;
+                margin-top: 27vw;
+            }
+
+           
+        }
+        
+    }
+
+    .blog3:hover{
+        transform: scale(1.1);
+        margin-right: 1vw; ;
+        .overlay{
+            opacity: 0;
+        }
+    }
+
+
+    .blog4{
+        margin-top: 3vw;
+        margin-right: 0.1vw;
+        width: 13vw;
+        height: 30vw;
+        background-color: orange;
+        background-image: url(../src/image/b4.jpg);
+        background-size: cover;
+        background-position-x: 23vw;
+        
+
+        .overlay{
+            width: 13vw;
+            height: 30vw;
+            position: absolute;
+            background-color: orange;
+            background-image: linear-gradient($colorblue,$coloryellow);
+            opacity: 0.8;
+
+            p{
+                color: white;
+                margin-top: 27vw;
+            }
+
+        }
+    }
+
+    .blog4:hover{
+        transform: scale(1.1);
+        margin-right: 1vw; ;
+        .overlay{
+            opacity: 0;
+        }
+    }
+
+}
+
+
+
+#contact{
+    width: 100%;
+    height: 30vw;
+    background-color: $coloryellow;
+
+    .contacts{
+        width: 90vw;
+        height: 23vw;
+        margin: auto;
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        .details{
+            background-color: green;
+            width: 30vw;
+            height: 23vw;
+        }
+
+        .social{
+            background-color: orange;
+            width: 50vw;
+            height: 23vw;
+        }
+
+    }
+
+}
 
 
 
@@ -407,5 +518,7 @@ section #container{
             
         }
     }
+
+
 
 }
