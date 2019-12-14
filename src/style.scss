@@ -16,6 +16,10 @@ body {
     h4 {
         text-align: center;
     }
+
+    .blog {
+        margin-top: 5vw;
+    }
 }
 .yellowlines{
     padding: 0;
@@ -169,6 +173,7 @@ section #container{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 10vw;
 
 
     .development{
@@ -186,6 +191,151 @@ section #container{
     }
 
 }
+
+#blog {
+    width: 100%;
+    height: 50vw;
+    background-color:$colorblue;
+
+    .blogpost{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: row;
+        justify-content: center;
+        margin-top: 6vw;
+
+        .blog1{
+            width: 15vw;
+            height: 30vw;
+            background-image: url(../src/image/b1.jpg);
+            background-color:red;
+            background-size: 40vw;
+            background-position-x: 60%;
+            margin-right: 5px;
+            position: relative;
+            background-size: cover;
+
+            .overlay {
+                width: 15vw;
+                height: 30vw;
+                background-color: $coloryellow;
+                position: absolute;
+                z-index: 2;
+                opacity: 0.9;
+                background-image: linear-gradient($colorblue,$coloryellow);
+            }
+        }
+
+
+        .blog1:hover{
+            width: 17vw;
+            height: 32vw;
+            .overlay {
+                opacity: 0;
+            }
+        }
+
+        .blog2{
+            width: 15vw;
+            height: 30vw;
+            background-color: blue;
+            margin-right: 5px;
+            background-image: url(../src/image/b2.jpg);
+            background-color:red;
+            background-size: 25vw;
+            background-position-x: 60%;
+            position: relative;
+            background-size: cover;
+
+            .overlay {
+                width: 15vw;
+                height: 30vw;
+                background-color: $coloryellow;
+                position: absolute;
+                z-index: 2;
+                opacity: 0.9;
+                background-image: linear-gradient($colorblue,$coloryellow);
+            }
+        }
+        .blog2:hover{
+            // margin-top: ;
+            width: 17vw;
+            height: 32vw;
+            .overlay {
+                opacity: 0;
+            }
+        }
+        .blog3{
+            width: 15vw;
+            height: 30vw;
+            background-color: pink;
+            margin-right: 5px;
+            background-image: url(../src/image/b3.jpg);
+            background-color:red;
+            background-size: 40vw;
+            background-position-x: 60%;
+            position: relative;
+            background-size: cover;
+
+            .overlay {
+                width: 15vw;
+                height: 30vw;
+                background-color: $coloryellow;
+                position: absolute;
+                z-index: 2;
+                opacity: 0.9;
+                background-image: linear-gradient($colorblue,$coloryellow);
+            }
+        }
+        .blog3:hover{
+            // margin-top: ;
+            width: 17vw;
+            height: 32vw;
+            .overlay {
+                opacity: 0;
+            }
+        }
+        .blog4{
+            width: 15vw;
+            height: 30vw;
+            background-color:green;
+            margin-right: 5px;
+            background-image: url(../src/image/b4.jpg);
+            background-color:red;
+            background-size: 40vw;
+            background-position-x: 60%;
+            position: relative;
+            background-size: cover;
+
+            .overlay {
+                width: 15vw;
+                height: 30vw;
+                background-color: $coloryellow;
+                position: absolute;
+                z-index: 2;
+                opacity: 0.9;
+                background-image: linear-gradient($colorblue,$coloryellow);
+            }
+        }
+        .blog4:hover{
+            // margin-top: ;
+            width: 17vw;
+            height: 32vw;
+            .overlay {
+                opacity: 0;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
 
 //--------------Media Queries HERE----------------------//
 @media only screen and (max-width:500px){
