@@ -495,10 +495,13 @@ header{
         
 
         .details{
+            margin-top: 1vw;
             // background-color: green;
             width: 30vw;
             height: 23vw;
-            // background-color: #eda54a;
+            background-color: #de9840;
+            padding: 3vw;
+            border-radius: 2vw;
             
 
     
@@ -560,6 +563,12 @@ header{
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+
+    h2{
+        position: absolute;
+        margin-left: -3vw;
+        margin-top: -15vw;
+    }
 
     .w1{
         width: 27vw;
@@ -881,22 +890,30 @@ header{
 #resumecontainer{
     width: 100%;
     height: 48vw;
-    background-color: $coloryellow;
+    background-color:$coloryellow;
     display: flex;
+    // flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-around;
+    // justify-content: space-around;
+
+    h2{
+        position: absolute;
+        margin-left: -2vw;
+        // width: 100%;
+    }
 
     .word {
-        margin-top: 10vw;
+        margin-top: 14vw;
         width: 30vw;
         height: 20vw;
-        // background-color: black;
+        // background-color: black; 
+        // transition: ;
 
         
     }
 
     .pdf {
-        margin-top: 10vw;
+        margin-top: 14vw;
         width: 30vw;
         height: 20vw;
         // background-color: pink;

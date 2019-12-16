@@ -399,8 +399,12 @@ header #landingintro .introbg {
   flex-direction: row;
 }
 #contact .contacts .details {
+  margin-top: 1vw;
   width: 30vw;
   height: 23vw;
+  background-color: #de9840;
+  padding: 3vw;
+  border-radius: 2vw;
 }
 #contact .contacts .socialtext {
   position: absolute;
@@ -435,6 +439,11 @@ header #landingintro .introbg {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+}
+#workscontainer h2 {
+  position: absolute;
+  margin-left: -3vw;
+  margin-top: -15vw;
 }
 #workscontainer .w1 {
   width: 27vw;
@@ -666,15 +675,18 @@ header #landingintro .introbg {
   background-color: #f3aa4e;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+}
+#resumecontainer h2 {
+  position: absolute;
+  margin-left: -2vw;
 }
 #resumecontainer .word {
-  margin-top: 10vw;
+  margin-top: 14vw;
   width: 30vw;
   height: 20vw;
 }
 #resumecontainer .pdf {
-  margin-top: 10vw;
+  margin-top: 14vw;
   width: 30vw;
   height: 20vw;
 }
