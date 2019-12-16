@@ -660,6 +660,25 @@ header #landingintro .introbg {
   width: 40vw;
 }
 
+#resumecontainer {
+  width: 100%;
+  height: 48vw;
+  background-color: #f3aa4e;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+#resumecontainer .word {
+  margin-top: 10vw;
+  width: 30vw;
+  height: 20vw;
+}
+#resumecontainer .pdf {
+  margin-top: 10vw;
+  width: 30vw;
+  height: 20vw;
+}
+
 @media only screen and (max-width: 500px) {
   label {
     display: block;

@@ -876,6 +876,35 @@ header{
 }
 
 
+//----Resume Page ----//
+
+#resumecontainer{
+    width: 100%;
+    height: 48vw;
+    background-color: $coloryellow;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    .word {
+        margin-top: 10vw;
+        width: 30vw;
+        height: 20vw;
+        // background-color: black;
+
+        
+    }
+
+    .pdf {
+        margin-top: 10vw;
+        width: 30vw;
+        height: 20vw;
+        // background-color: pink;
+    }
+
+
+
+}
 
 
 
