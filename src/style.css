@@ -898,7 +898,45 @@ header #landingintro .introbg {
   }
 
   #contact {
+    width: 100%;
+    height: 200vw;
+    margin-top: 10vw;
+  }
+  #contact h3 {
+    margin-top: 20vw;
+    width: 70vw;
+    margin-bottom: 10vw;
+    font-size: 7vw;
+  }
+  #contact h2 {
     display: none;
+  }
+  #contact .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #contact .contacts .details {
+    width: 100%;
+    height: 18vw;
+    background-color: transparent;
+  }
+  #contact .contacts .socialtext {
+    display: none;
+  }
+  #contact .contacts .social {
+    width: 90%;
+    height: 18vw;
+    margin-top: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #contact .contacts .social img {
+    margin-left: 2vw;
+    width: 23vw;
+    height: 23vw;
   }
 }
 
