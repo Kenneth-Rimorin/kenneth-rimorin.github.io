@@ -942,7 +942,7 @@ header{
     .menu{
         text-align: center;
         width: 100%;
-        background-color: red;
+        background-color: rgba($color: #000000, $alpha: 0.8);
         display: none;
         
         
@@ -1233,7 +1233,7 @@ header{
             margin-top: 20vw;
             width: 70vw;    
             margin-bottom: 10vw;
-            // background-color: red;
+            //   red;
             font-size: 7vw;
         }
 
@@ -1280,6 +1280,96 @@ header{
 
 
     }
+
+
+    //Blog page mobile
+
+    header{
+        margin-top: -4vw;
+    }
+
+    #blogs{
+        width: 100%;
+        height: 480vw;
+        // background-color: red;
+        hr{
+            display: none;
+        }
+
+
+
+        #bp1{
+            width: 100%;
+            height: 50vw;
+            .bpic{
+                // display: none;
+                background-color: pink;
+                background-size: 100vw;
+            }
+            
+            h5{
+                margin-top: 50vw;
+                margin-left: -20vw;
+            }
+            h3{
+                margin-left: -30vw;
+            }
+
+            p{
+                width: 80vw !important;
+                margin-left: -5vw !important;
+                margin-top: 70vw !important; 
+                height: 40vw; 
+                text-align: left;
+            }
+        }
+
+        #bp2{
+            width: 100%;
+            height: 50vw;
+            .bpic2{
+                // display: none;
+                background-color: pink;
+                background-size: 70vw;
+                margin-top: 130vw !important;
+            }
+            
+            h5{
+                margin-top: 50vw;
+                margin-left: -20vw;
+            }
+            h3{
+                margin-left: -30vw;
+            }
+
+            p{
+                width: 80vw !important;
+                margin-left: -5vw !important;
+                margin-top: 70vw !important; 
+                height: 40vw; 
+                text-align: left;
+            }
+        }
+
+
+        .bpic3{
+            display: none;
+        }
+
+        .bpic4{
+            display: none;
+        }
+
+        .bpic5{
+            display: none;
+        }
+
+        
+
+
+
+    }
+
 
 
 }
