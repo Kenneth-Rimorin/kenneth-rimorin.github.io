@@ -404,7 +404,7 @@ header #landingintro .introbg {
   height: 23vw;
   background-color: #de9840;
   padding: 3vw;
-  border-radius: 2vw;
+  border-radius: 3vw;
 }
 #contact .contacts .socialtext {
   position: absolute;
@@ -714,49 +714,103 @@ header #landingintro .introbg {
     display: block;
   }
 
-  #job {
-    font-size: 10px;
+  nav {
+    margin-left: -1vw;
   }
 
-  #image .profilepicture {
-    margin-top: -10vw;
-    width: 30vw;
-    position: absolute;
-    z-index: 2;
+  body h2 {
+    background-color: transparent;
   }
-
-  #image .circle {
+  body p {
+    margin-top: 5vw;
+  }
+  body .profilepicture {
+    width: 30vw !important;
+    height: 30vw;
+  }
+  body .circle {
+    display: none;
+  }
+  body .yellowlines {
     opacity: 0;
   }
-
-  .button {
-    width: 500px;
-    margin-top: 20vw;
+  body .moreabout {
+    display: none;
   }
-
-  .moreabout {
-    margin-top: 20vw;
-    font-size: 4vw;
-    border-style: solid;
-    padding: 0vw;
+  body #landingintro {
+    margin-bottom: 20wv;
   }
-
-  section #container {
-    margin: 50vw 0 0 0;
+  body #landingintro .introbg {
+    display: none;
   }
-
-  .skills {
+  body #container {
+    background-color: #f3aa4e;
+    height: 270vw;
+  }
+  body #container .content {
+    margin-top: 40vw;
+  }
+  body #container .content .content1 {
+    margin-top: -10vw !important;
+    text-align: left;
+    width: 100vw;
+    height: -1vw;
+  }
+  body #container .content .content1 h2 {
+    margin-top: 60vw;
+  }
+  body #container .content .content1 p {
+    text-align: center;
+    height: 10vw;
+    width: 80vw;
+    margin-top: 10vw !important;
+    line-height: 1.6;
+    margin-left: 10vw;
+  }
+  body #container .content .content2 {
+    margin-top: -60vw !important;
+    text-align: left;
+    width: 100vw;
+    height: 50vw;
+  }
+  body #container .content .content2 h2 {
+    margin-top: 190vw;
+  }
+  body #container .content .content2 img {
+    width: 15vw;
     margin: auto;
+    margin-left: 10vw;
   }
-  .skills .development {
-    margin-left: 5vw;
+  body #container .content .content3 {
+    text-align: left;
+    width: 100vw;
+    margin-top: 20vw;
   }
-  .skills .development .devtools {
-    width: 10vw;
+  body #container .content .content3 h2 {
+    margin-top: 0vw;
   }
-  .skills .development .destools {
-    max-width: 5vw;
-    height: 5vw;
+  body #container .content .content4 {
+    margin-top: -60vw !important;
+    text-align: left;
+    width: 100vw;
+    height: 50vw;
+  }
+  body #container .content .content4 h2 {
+    margin-top: 180vw;
+  }
+  body #container .content .content4 p {
+    text-align: center;
+  }
+  body #container .content .content5 {
+    text-align: left;
+    width: 100vw;
+    height: 50vw;
+  }
+  body #container .content .content5 h2 {
+    margin-top: 23vw;
+  }
+  body #container .content .content5 p {
+    text-align: left;
   }
 }
 
