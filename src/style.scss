@@ -1125,7 +1125,17 @@ header{
         height: 180vw;
 
         .overlay{
-            display: none;
+            background-image: none;
+            background-color: transparent;
+            p {
+                width: 65vw;
+                height: 8vw;
+                margin-top: 50vw;
+                font-size: 6vw;
+                color: #272a2c;
+                background-color: black;
+            }
+            
         }
 
         h2{
@@ -1156,9 +1166,15 @@ header{
                 background-image: url(../src/image/b1.jpg);
                 background-size: 150vw;
                 background-position-x: -50vw;
-                background-position-y: -8vw;
+                background-position-y: -15vw;
                 border-radius: 4vw;
+                transition: none;
             }
+            .blog1:hover{
+                transform: none;
+                margin-right: 0;
+            }
+            
             .blog2{
                 margin-top: 10vw;
                 margin-bottom: 5vw;
@@ -1170,6 +1186,7 @@ header{
                 background-position-x: -13vw;
                 background-position-y: -8vw;
                 border-radius: 4vw;
+                transition: none;
             }
             .blog3{
                 display: none;

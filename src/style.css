@@ -831,7 +831,16 @@ header #landingintro .introbg {
     height: 180vw;
   }
   #blog .overlay {
-    display: none;
+    background-image: none;
+    background-color: transparent;
+  }
+  #blog .overlay p {
+    width: 65vw;
+    height: 8vw;
+    margin-top: 50vw;
+    font-size: 6vw;
+    color: #272a2c;
+    background-color: black;
   }
   #blog h2 {
     margin-top: 10vw;
@@ -857,8 +866,13 @@ header #landingintro .introbg {
     background-image: url(../src/image/b1.jpg);
     background-size: 150vw;
     background-position-x: -50vw;
-    background-position-y: -8vw;
+    background-position-y: -15vw;
     border-radius: 4vw;
+    transition: none;
+  }
+  #blog .blogcontent .blog1:hover {
+    transform: none;
+    margin-right: 0;
   }
   #blog .blogcontent .blog2 {
     margin-top: 10vw;
@@ -871,6 +885,7 @@ header #landingintro .introbg {
     background-position-x: -13vw;
     background-position-y: -8vw;
     border-radius: 4vw;
+    transition: none;
   }
   #blog .blogcontent .blog3 {
     display: none;
