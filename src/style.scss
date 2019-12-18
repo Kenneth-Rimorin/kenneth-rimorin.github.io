@@ -1442,16 +1442,8 @@ header{
 
 
     }
-
-    //----work page----//
-
-    // #worksnav{
-        // .nav{   
-        //     margin-top: 20vw;
-        // }
-    // }
     
-
+    //----works----//
     #workscontainer{
         // background-color: red;
         height: 250vw;
@@ -1496,6 +1488,51 @@ header{
                 margin-top: -10vw;
             }
         }
+    }//works
+
+    //-----resume page---//
+
+    #resumecontainer{
+        width: 100%;
+        height: 180vw;
+        // background-color: red;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        // justify-content: space-around;
+
+        h2{
+            margin-top: 20vw !important;
+            margin-left: -5vw;
+        }
+
+        .word{
+            width: 100%;
+            img{
+            width: 50vw;
+            height: 50vw;
+            margin-left: 15vw;
+            margin-top: 30vw;
+            // background-image: cover;
+
+            }
+            
+        }
+
+        .pdf{
+            width: 100%;
+            img{
+            width: 50vw;
+            height: 50vw;
+            margin-left: 15vw;
+            // margin-top: 20vw;
+            // background-image: cover;
+
+            }
+            
+        }
+
+
     }
 
     
