@@ -1066,6 +1066,29 @@ header #landingintro .introbg {
     height: 40vw;
     text-align: left;
   }
+
+  #workscontainer {
+    height: 160vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #workscontainer .w1 {
+    width: 80%;
+    height: 40vw;
+    background-size: cover;
+  }
+  #workscontainer .w2 {
+    width: 80%;
+    height: 40vw;
+    background-size: cover;
+  }
+  #workscontainer .w3 {
+    width: 80%;
+    height: 40vw;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
