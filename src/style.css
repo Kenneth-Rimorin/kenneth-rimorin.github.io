@@ -1067,10 +1067,6 @@ header #landingintro .introbg {
     text-align: left;
   }
 
-  .nav {
-    margin-top: 20vw;
-  }
-
   #workscontainer {
     height: 250vw;
     display: flex;
