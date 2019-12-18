@@ -1441,32 +1441,61 @@ header{
     }
 
     //----work page----//
+
+    // #worksnav{
+        .nav{   
+            margin-top: 20vw;
+        }
+    // }
     
 
     #workscontainer{
         // background-color: red;
-        height: 160vw;
+        height: 250vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: row;
+        justify-content: space-around;
+
+
+        h2{
+            margin-top: -105vw;
+            margin-left: 2vw;
+        }
 
         .w1{
             width: 80%;
             height: 40vw;
             background-size: cover;
+            margin-top: 30vw;
+            margin-bottom: 10vw;
+
+            p{
+                margin-top: -10vw;
+            }
         }
         .w2{
             width: 80%;
             height: 40vw;
             background-size: cover;
+            margin-bottom: 10vw;
+            p{
+                margin-top: -10vw;
+            }
         }
         .w3{
             width: 80%;
             height: 40vw;
             background-size: cover;
+            margin-bottom: 10vw;
+            p{
+                margin-top: -10vw;
+            }
         }
     }
+
+    
 
 
 }

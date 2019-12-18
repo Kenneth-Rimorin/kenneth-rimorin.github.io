@@ -1067,27 +1067,49 @@ header #landingintro .introbg {
     text-align: left;
   }
 
+  .nav {
+    margin-top: 20vw;
+  }
+
   #workscontainer {
-    height: 160vw;
+    height: 250vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    justify-content: space-around;
+  }
+  #workscontainer h2 {
+    margin-top: -105vw;
+    margin-left: 2vw;
   }
   #workscontainer .w1 {
     width: 80%;
     height: 40vw;
     background-size: cover;
+    margin-top: 30vw;
+    margin-bottom: 10vw;
+  }
+  #workscontainer .w1 p {
+    margin-top: -10vw;
   }
   #workscontainer .w2 {
     width: 80%;
     height: 40vw;
     background-size: cover;
+    margin-bottom: 10vw;
+  }
+  #workscontainer .w2 p {
+    margin-top: -10vw;
   }
   #workscontainer .w3 {
     width: 80%;
     height: 40vw;
     background-size: cover;
+    margin-bottom: 10vw;
+  }
+  #workscontainer .w3 p {
+    margin-top: -10vw;
   }
 }
 
