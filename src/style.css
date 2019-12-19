@@ -12,8 +12,8 @@ body p {
 body h2 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #eda54a;
-  color: #272a2c;
+  background-color: black;
+  color: white;
   height: 2vw;
 }
 body h4 {
@@ -61,12 +61,12 @@ body .blog {
 }
 
 .menu a:hover {
-  color: #f3aa4e;
+  color: white;
   font-size: 16px;
 }
 
 .menu a:active {
-  color: #f3aa4e;
+  color: white;
 }
 
 label {
@@ -89,7 +89,7 @@ header #hello {
   justify-content: center;
   size: 50px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #f3aa4e;
+  color: white;
 }
 header #name {
   font-family: Arial, Helvetica, sans-serif;
@@ -133,7 +133,7 @@ header .moreabout {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 9vw;
   border-style: solid;
@@ -142,7 +142,7 @@ header .moreabout {
 }
 header .moreabout a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 header .moreabout:hover {
   color: #111820;
@@ -151,19 +151,19 @@ header #landingintro {
   height: 36vw;
 }
 header #landingintro .introbg {
-  background-color: #f3aa4e;
+  background-color: white;
   width: 100%;
   height: 19vw;
   margin-top: 12vw;
 }
 
 #container {
-  background-color: #f3aa4e;
+  background-color: white;
   width: 100%;
   height: 70vw;
 }
 #container .content {
-  background-color: #f3aa4e;
+  background-color: white;
   width: 90vw;
   height: 60vw;
   margin: auto;
@@ -210,7 +210,7 @@ header #landingintro .introbg {
 }
 #blog a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 #blog h4 {
   display: none;
@@ -252,7 +252,7 @@ header #landingintro .introbg {
   height: 30vw;
   position: absolute;
   background-color: orange;
-  background-image: linear-gradient(#111820, #f3aa4e);
+  background-image: linear-gradient(#111820, white);
   opacity: 0.8;
 }
 .blogcontent .blog1 .overlay p {
@@ -282,7 +282,7 @@ header #landingintro .introbg {
   height: 30vw;
   position: absolute;
   background-color: orange;
-  background-image: linear-gradient(#111820, #f3aa4e);
+  background-image: linear-gradient(#111820, white);
   opacity: 0.8;
 }
 .blogcontent .blog2 .overlay p {
@@ -312,7 +312,7 @@ header #landingintro .introbg {
   height: 30vw;
   position: absolute;
   background-color: orange;
-  background-image: linear-gradient(#111820, #f3aa4e);
+  background-image: linear-gradient(#111820, white);
   opacity: 0.8;
 }
 .blogcontent .blog3 .overlay p {
@@ -342,7 +342,7 @@ header #landingintro .introbg {
   height: 30vw;
   position: absolute;
   background-color: orange;
-  background-image: linear-gradient(#111820, #f3aa4e);
+  background-image: linear-gradient(#111820, white);
   opacity: 0.8;
 }
 .blogcontent .blog4 .overlay p {
@@ -373,7 +373,7 @@ header #landingintro .introbg {
   height: 30vw;
   position: absolute;
   background-color: orange;
-  background-image: linear-gradient(#111820, #f3aa4e);
+  background-image: linear-gradient(#111820, white);
   opacity: 0.8;
 }
 .blogcontent .blog5 .overlay p {
@@ -391,7 +391,7 @@ header #landingintro .introbg {
 #contact {
   width: 100%;
   height: 35vw;
-  background-color: #f3aa4e;
+  background-color: white;
 }
 #contact .contacts {
   width: 90vw;
@@ -405,7 +405,7 @@ header #landingintro .introbg {
   margin-top: 1vw;
   width: 30vw;
   height: 23vw;
-  background-color: #de9840;
+  background-color: gray;
   padding: 3vw;
   border-radius: 3vw;
 }
@@ -437,7 +437,7 @@ header #landingintro .introbg {
   margin-top: 3vw;
   width: 100%;
   height: 50vw;
-  background-color: #f3aa4e;
+  background-color: white;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -455,7 +455,7 @@ header #landingintro .introbg {
   background-image: url(./image/w1.jpg);
   background-size: 30vw;
   border-style: solid;
-  border-color: #fdcb8b;
+  border-color: black;
   box-shadow: 1px 1px 5px #777777;
   transition: transform 0.5s;
 }
@@ -474,7 +474,7 @@ header #landingintro .introbg {
   background-image: url(./image/w2.jpg);
   background-size: 30vw;
   border-style: solid;
-  border-color: #fdcb8b;
+  border-color: black;
   box-shadow: 1px 1px 5px #777777;
   transition: transform 0.5s;
 }
@@ -494,7 +494,7 @@ header #landingintro .introbg {
   background-size: 30vw;
   background-position-y: -5vw;
   border-style: solid;
-  border-color: #fdcb8b;
+  border-color: black;
   box-shadow: 1px 1px 5px #777777;
   transition: transform 0.5s;
 }
@@ -520,7 +520,7 @@ header #landingintro .introbg {
 #blogs {
   width: 100%;
   height: 100%;
-  background-color: #f3aa4e;
+  background-color: white;
   margin-top: -1.3vw;
 }
 #blogs .blogtitle {
@@ -675,7 +675,7 @@ header #landingintro .introbg {
 #resumecontainer {
   width: 100%;
   height: 48vw;
-  background-color: #f3aa4e;
+  background-color: white;
   display: flex;
   justify-content: center;
 }
@@ -748,7 +748,7 @@ header #landingintro .introbg {
   }
   body #container {
     margin-top: -10vw;
-    background-color: #f3aa4e;
+    background-color: white;
     height: 420vw;
   }
   body #container .content {
