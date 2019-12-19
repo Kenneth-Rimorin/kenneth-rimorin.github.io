@@ -1,6 +1,6 @@
-$coloryellow:#f3aa4e;
-$colorblue: #111820;
-$colornav:#272a2c;
+$coloryellow:#00c5ce;
+$colorblue: #028abc;
+$colornav:#cbe6ed;
 
 html{
     scroll-behavior: smooth;
@@ -11,12 +11,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     p{
         text-align: center;
+        font-family: sans-serif;
     }   
 
     h2{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #eda54a;
+        background-color: #004775;
         color:$colornav;
         height: 2vw;
     }
@@ -65,7 +66,7 @@ body {
 .menu a{
     clear: right;
     text-decoration: none;
-    color:white;
+    color:#004775;
     margin: 0 10px;
     line-height: 50px;
 }
@@ -505,7 +506,7 @@ header{
             // background-color: green;
             width: 30vw;
             height: 23vw;
-            background-color: #de9840;
+            background-color: #cbe6ed;
             padding: 3vw;
             border-radius: 3vw;
             
